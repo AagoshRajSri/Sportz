@@ -1,0 +1,47 @@
+# Dependency folders
+node_modules/
+vendor/
+
+# Environment variables (secrets)
+.env
+.env.local
+.env.*
+
+# Build / output folders
+dist/
+build/
+out/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage reports
+coverage/
+
+# Package lock files (optional depending on project)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
